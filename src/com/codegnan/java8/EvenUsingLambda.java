@@ -1,0 +1,12 @@
+package com.codegnan.java8;
+
+import java.util.Predicate;
+public class EvenUsingLambda {
+	public static void main(String[] args) {
+		Predicate<Integer>p=a->a%2==0;
+		System.out.println(p.test(20));
+		System.out.println(p.test(23));
+
+	}
+
+}
